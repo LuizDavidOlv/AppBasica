@@ -52,7 +52,7 @@ namespace AppMvcBasica.Data.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(nullable: false),
-                    FornecerId = table.Column<Guid>(nullable: false),
+                    //FornecerId = table.Column<Guid>(nullable: false),
                     Nome = table.Column<string>(maxLength: 200, nullable: false),
                     Descricao = table.Column<string>(maxLength: 1000, nullable: false),
                     Imagem = table.Column<string>(maxLength: 200, nullable: false),

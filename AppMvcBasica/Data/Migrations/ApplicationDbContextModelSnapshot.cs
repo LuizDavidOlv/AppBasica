@@ -97,7 +97,7 @@ namespace AppMvcBasica.Data.Migrations
 
                     b.Property<Guid?>("FornecedorId");
 
-                    b.Property<Guid>("FornecerId");
+                    //b.Property<Guid>("FornecerId");
 
                     b.Property<string>("Imagem")
                         .IsRequired()
